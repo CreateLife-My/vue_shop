@@ -24,7 +24,7 @@ import {
   Pagination,
   Dialog,
   MessageBox ,
-  Tag, Tree, Select,Option,Cascader,Alert, TabPane,Tabs, Step, Steps, CheckboxGroup, Checkbox, Upload
+  Tag, Tree, Select,Option,Cascader,Alert, TabPane,Tabs, Step, Steps, CheckboxGroup, Checkbox, Upload, Timeline, TimelineItem
 } from 'element-ui'
 
 Vue.use(Button)
@@ -63,6 +63,8 @@ Vue.use(Steps)
 Vue.use(CheckboxGroup)
 Vue.use(Checkbox)
 Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 
 // 把message组件挂在在Vue原型中
 Vue.prototype.$message = Message
